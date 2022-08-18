@@ -29,7 +29,7 @@ Managing the local repo
 6) git commit -m "My first commit"  ( This will commit in the local repo)
 7) We have to map to the remote repo
   git remote add origin <The repo path>
-8) git push origin main <Open a dialog box for authentication>
+8) git push origin mASTER <Open a dialog box for authentication>
 9) Check the remote repo for the push content
 ---------------------------------------------------------------------------------------------------------
 
