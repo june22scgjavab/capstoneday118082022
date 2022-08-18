@@ -31,6 +31,67 @@ Managing the local repo
   git remote add origin <The repo path>
 8) git push origin master<Open a dialog box for authentication>
 9) Check the remote repo for the push content
----------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+
+1)Create a folder called localrepo.
+2)Within that folder , save a text file called hello.txt. With the content hello world!!!!!
+3) Create a private repository with the name myremoterepository in github.
+4) push the content of local repository in the remote repository called myremoterepository.
+5) Made a change in the remote repository by opening the editor of github and make the text of the hello world as hello friends!!!!.
+6) Commit the file in the github only.
+7) Come back to the local repo and change the content of the hello.text as hi friends!!!!!.
+8) Now try to push the changed content ... What you observe. 
+9) You get an error because your remote content is not in synch with the local content.
+  git pull origin master
+10) Check the content of the file and make the required changes.
+11) again commit and push and check whether push is with a success this time.
+------------------------------------------------------------------------------------------------------------------------------------
+git clone <remote_repo_url>====> cloning or copying a project which is
+with public access. example
+git clone https://github.com/june22scgjavab/day1825072022.git
+--------------------------------------------------------------------------------------------------------------------
+SCM ( Source Code Management)
+-----------------------------------------------------------------------------------------------
+Local repo
+Remote repo=====> We have created an account in github which will be our remote repository. The objective is sharing, reviewing , adding codes to the same project and version controling. 
+
+Now to use the git commands , we have to install git in our local system.
+
+Set the path for the git.
+
+We have to create a local repo. 
+for that we select a folder, and go to the command prompt and write 
+git init
+
+We have to add the contents of this repo the staging area
+git add .
+
+we have to commit in the local repo. So for committing in the local repo.
+git commit -m "The last commit"
+
+We have to map with the remote repo for that we have to write
+git remote add origin <url>
+
+After that we need to push or files and folders to the remote repo
+git push origin master
+--------------------------------------------------------------------------------------------------------------------
+Cloning the project in the local system
+git clone <url>
+------------------------------------------------------------------------------------------------
+Forking is just to get separate copy of a project which has no relation with the copy from where we have coppied the repo.
+click on the fork icon and you have to press the fork button and the project is shown with your repo. Now you can 
+clone it and work on the same.
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 
 
