@@ -94,4 +94,16 @@ clone it and work on the same.
 
 
 
+1)Create a folder called localrepo.
+2)Within that folder , save a text file called hello.txt. With the content hello world!!!!!
+3) Create a private repository with the name myremoterepository in github.
+4) push the content of local repository in the remote repository called myremoterepository.
+5) Made a change in the remote repository by opening the editor of github and make the text of the hello world as hello friends!!!!.
+6) Commit the file in the github only.
+7) Come back to the local repo and change the content of the hello.text as hi friends!!!!!.
+8) Now try to push the changed content ... What you observe. 
+9) You get an error because your remote content is not in synch with the local content.
+  git pull origin master
+10) Check the content of the file and make the required changes.
+11) again commit and push and check whether push is with a success this time.
 
