@@ -1,0 +1,36 @@
+As I am doing the action of pushing the code for the first time.
+I have to provide some commands.
+
+Next two lines are for once only.
+1. git config --global user.name "june22scgjavab" <Enter>
+2. git config --global user.email "june22scgjavab@gmail.com" <Enter>
+The below step is to ensure that everything specially the username and email setting is done correctly
+git config --list
+
+
+
+PART1
+First we create a remote repo in the
+github account
+
+PART2
+Managing the local repo
+1) We created a folder
+2) We right clicked over the folder and
+  opened the git bash
+3) We got a command prompt which is similar to
+   unix or linux command prompt.
+4) The first command which we should use to convey that this is the local repository
+   git init
+5) To add all the files and folders of the current project for staging.
+   git add First.java
+   git add *.java
+   git add . ( . the content of the current folder and current folder which we have considered as local repo)
+6) git commit -m "My first commit"  ( This will commit in the local repo)
+7) We have to map to the remote repo
+  git remote add origin <The repo path>
+8) git push origin main <Open a dialog box for authentication>
+9) Check the remote repo for the push content
+---------------------------------------------------------------------------------------------------------
+
+
