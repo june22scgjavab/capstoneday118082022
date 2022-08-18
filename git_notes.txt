@@ -1,3 +1,5 @@
+i HAVE CHANGED THE FILE.....
+
 As I am doing the action of pushing the code for the first time.
 I have to provide some commands.
 
@@ -29,7 +31,7 @@ Managing the local repo
 6) git commit -m "My first commit"  ( This will commit in the local repo)
 7) We have to map to the remote repo
   git remote add origin <The repo path>
-8) git push origin main <Open a dialog box for authentication>
+8) git push origin master<Open a dialog box for authentication>
 9) Check the remote repo for the push content
 ---------------------------------------------------------------------------------------------------------
 
